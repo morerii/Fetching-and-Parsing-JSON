@@ -12,6 +12,9 @@
 		FE1C7EEC2191276200829D86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1C7EEA2191276200829D86 /* Main.storyboard */; };
 		FE1C7EEE2191276200829D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1C7EED2191276200829D86 /* Assets.xcassets */; };
 		FE1C7EF12191276200829D86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1C7EEF2191276200829D86 /* LaunchScreen.storyboard */; };
+		FE1C7EF921912D2E00829D86 /* BeritaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1C7EF821912D2E00829D86 /* BeritaCell.swift */; };
+		FE2676012192EDEC004AEBFF /* NewsDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2676002192EDEC004AEBFF /* NewsDetailController.swift */; };
+		FEF45BBC219270D9002EB348 /* Berita.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF45BBB219270D9002EB348 /* Berita.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		FE1C7EED2191276200829D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE1C7EF02191276200829D86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE1C7EF22191276200829D86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1C7EF821912D2E00829D86 /* BeritaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeritaCell.swift; sourceTree = "<group>"; };
+		FE2676002192EDEC004AEBFF /* NewsDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailController.swift; sourceTree = "<group>"; };
+		FEF45BBB219270D9002EB348 /* Berita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Berita.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				FE1C7EE62191276100829D86 /* AppDelegate.swift */,
 				FE1C7EE82191276100829D86 /* ViewController.swift */,
+				FEF45BBB219270D9002EB348 /* Berita.swift */,
+				FE1C7EF821912D2E00829D86 /* BeritaCell.swift */,
 				FE1C7EEA2191276200829D86 /* Main.storyboard */,
+				FE2676002192EDEC004AEBFF /* NewsDetailController.swift */,
 				FE1C7EED2191276200829D86 /* Assets.xcassets */,
 				FE1C7EEF2191276200829D86 /* LaunchScreen.storyboard */,
 				FE1C7EF22191276200829D86 /* Info.plist */,
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1C7EE92191276100829D86 /* ViewController.swift in Sources */,
+				FE2676012192EDEC004AEBFF /* NewsDetailController.swift in Sources */,
 				FE1C7EE72191276100829D86 /* AppDelegate.swift in Sources */,
+				FEF45BBC219270D9002EB348 /* Berita.swift in Sources */,
+				FE1C7EF921912D2E00829D86 /* BeritaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
